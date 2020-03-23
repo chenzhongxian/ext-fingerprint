@@ -1,0 +1,46 @@
+{
+  "name": {
+    "zh-cn": "指纹识别传感器",
+    "en": "Fingerprint Sensor"
+  },
+  "description": {
+    "zh-cn": "铁熊出品：可以读取指纹识别传感器中已存储的指纹",
+    "en": "Support fingerprint search mode."
+  },
+  "author": "铁熊",
+  "email": "xyxybot@gmail.com",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "fingerprint",
+  "platform": [
+    "win"
+  ],
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "0.1.0",
+      "board": [
+        "arduino",
+        "arduinounor3",
+        "arduinonano",
+        "leonardo",
+        "mega2560",
+        "esp32",
+        "microbit"
+      ],
+      "main": "main.ts",
+      "files": [
+        "_menus/arduino.json",
+        "_menus/arduinonano.json",
+        "_menus/arduinounor3.json",
+        "_menus/leonardo.json",
+        "_menus/mega2560.json",
+        "_menus/esp32.json",
+        "_menus/microbit.json",
+        "_images/icon.svg",
+        "_locales/zh-cn.json",
+        "main.ts"
+      ]
+    }
+  }
+}

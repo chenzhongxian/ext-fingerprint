@@ -1,0 +1,20 @@
+{
+  "fingerprint.beginSoftSerial|block": "指纹识别传感器 初始化为 [SSER] RX [SSRXD] TX [SSTXD] 波特率 [BAUDRATE]",
+  "fingerprint.beginSerial|block": "指纹识别传感器 初始化为 [SER] RX [RXD] TX [TXD] 波特率 [BAUDRATE]",
+  "fingerprint.getFingerSuccess|block": "读取指纹成功？",
+  "fingerprint.fingerID|block": "指纹编号",
+  "fingerprint.getImageSuccess|block": "获取指纹图像成功？",
+  "fingerprint.image2TzSuccess|block": "将指纹图像转为特征模板成功？",
+  "fingerprint.fingerFastSearchSuccess|block": "搜索指纹模型成功？",
+  "fingerprint.available|block": "甲醛传感器 有数据可读？",
+  "fingerprint.uartReadPPM|block": "读取甲醛传感器数据（UART模式）",
+  "fingerprint.dacReadPPM|block": "读取甲醛传感器数据 引脚 [APIN] （DAC模式）",
+  "fingerprint.SER.Serial|menu": "串口",
+  "fingerprint.SER.Serial1|menu": "串口1",
+  "fingerprint.SER.Serial2|menu": "串口2",
+  "fingerprint.SSER.softwareSerial|menu": "软串口",
+  "fingerprint.SSER.softwareSerial1|menu": "软串口1",
+  "fingerprint.SSER.softwareSerial2|menu": "软串口2",
+  "fingerprint.SSER.softwareSerial3|menu": "软串口3",
+  "fingerprint.SSER.softwareSerial4|menu": "软串口4"
+}

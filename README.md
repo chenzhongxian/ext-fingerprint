@@ -1,4 +1,4 @@
-# HCHO 甲醛传感器 Mind+ 用户库
+# 指纹识别传感器 Mind+ 用户库
 
 ![](./arduinoC/_images/featured.png)
 
