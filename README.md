@@ -41,7 +41,7 @@ MIT
 - Arduino Leonardo
 - Arduino Mega2560
 - micro:bit
-- mPython（掌控版）
+- mPython（掌控板）
 
 ## 更新日志
 
