@@ -1,10 +1,10 @@
 {
   "name": {
-    "zh-cn": "指纹识别传感器",
+    "zh-cn": "指纹识别传感器 AS608",
     "en": "Fingerprint Sensor"
   },
   "description": {
-    "zh-cn": "铁熊出品：可以读取指纹识别传感器中已存储的指纹",
+    "zh-cn": "铁熊出品：可以读取指纹识别传感器中已存储的指纹。",
     "en": "Support fingerprint search mode."
   },
   "author": "铁熊",
@@ -12,9 +12,7 @@
   "license": "MIT",
   "isBoard": false,
   "id": "fingerprint",
-  "platform": [
-    "win"
-  ],
+  "platform": ["win", "mac", "web"],
   "asset": {
     "arduinoC": {
       "dir": "arduinoC/",
@@ -28,19 +26,7 @@
         "esp32",
         "microbit"
       ],
-      "main": "main.ts",
-      "files": [
-        "_menus/arduino.json",
-        "_menus/arduinonano.json",
-        "_menus/arduinounor3.json",
-        "_menus/leonardo.json",
-        "_menus/mega2560.json",
-        "_menus/esp32.json",
-        "_menus/microbit.json",
-        "_images/icon.svg",
-        "_locales/zh-cn.json",
-        "main.ts"
-      ]
+      "main": "main.ts"
     }
   }
 }
